@@ -26,3 +26,8 @@ function selectDifferentDrivers(arrayOfDrivers,drivers) {
         return arrayOfDrivers.slice(-2)
     }
 }
+
+// Alternative Route for Last Test:
+// function selectDifferentDrivers(drivers,newer){
+//     return newer(drivers);
+// }
